@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Model cache
+*.bin
+*.safetensors
+
+# OS
+.DS_Store
