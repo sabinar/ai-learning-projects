@@ -1,0 +1,29 @@
+{
+  "start_time": "2026-04-06T10:56:57.512067",
+  "total_requests": 50,
+  "alerts": [
+    {
+      "type": "PREDICTION_DRIFT",
+      "timestamp": "2026-04-06T10:57:04.068411",
+      "baseline_pos_rate": 0.5,
+      "current_pos_rate": 0.0,
+      "drift": 0.5,
+      "threshold": 0.3,
+      "message": "Positive rate shifted from 50% to 0%"
+    },
+    {
+      "type": "PREDICTION_DRIFT",
+      "timestamp": "2026-04-06T10:57:04.835592",
+      "baseline_pos_rate": 0.5,
+      "current_pos_rate": 0.0,
+      "drift": 0.5,
+      "threshold": 0.3,
+      "message": "Positive rate shifted from 50% to 0%"
+    }
+  ],
+  "final_stats": {
+    "positive_rate": 0.0,
+    "avg_confidence": 0.99896,
+    "avg_latency": 38.3255
+  }
+}
